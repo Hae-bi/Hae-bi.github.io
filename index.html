@@ -32,6 +32,19 @@
             white-space: pre;
             font-family: Courier, monospace;
         }
+
+        /* Media Query für Bildschirme mit einer maximalen Breite von 600px (mobile Geräte) */
+        @media (max-width: 600px) {
+            header {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            .cmd-shell {
+                margin: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -45,10 +58,16 @@
 
         C:\Users\Michael>ls Projects
         Projects/
-        ├── work/
+        ├── Arbeit ICT Application Manager PLM/
         │   ├── Teamcenter.integration
         │   └── SAP.S4
-        └── studies/
+        ├── Freizeit/
+        │   ├── Raspberrypi
+        │   └── Github
+        └── Studium/
+            ├── BSC maschinentechnik
+            │   ├── Semester1
+            │   └── Semester2
             ├── Java.1
             ├── MachineLearning.foundations
             ├── Computing.infrastructure
