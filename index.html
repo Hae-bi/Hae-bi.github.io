@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Häberli-Industries</title>
+    <title>Häberli Industries</title>
     <style>
         body {
             background-color: black;
@@ -16,6 +16,7 @@
             background-color: #0a0a0a;
             padding: 10px;
             text-align: center;
+            margin-top: 20px;
         }
         h1 {
             margin: 0;
@@ -27,6 +28,10 @@
             padding: 10px;
             margin: 20px;
         }
+        .cmd-output {
+            white-space: pre;
+            font-family: Courier, monospace;
+        }
     </style>
 </head>
 <body>
@@ -34,12 +39,22 @@
     <h1>Häberli Industries</h1>
 </header>
 <div class="cmd-shell">
-        <pre>
-Hae-bi's first Website [Version 1]
-Dies ist nur ein versuch und noch nicht final.
+    <div class="cmd-output">
+        Hae-bi's first Website [Version 1]
+        Dies ist nur ein Versuch und noch nicht final.
 
-C:\Users\Michael>nano index.html
-        </pre>
+        C:\Users\Michael>ls Projects
+        Projects/
+        ├── work/
+        │   ├── Teamcenter.integration
+        │   └── SAP.S4
+        └── studies/
+        ├── Java.1
+        ├── MachineLearning.foundations
+        ├── Computing.infrastructure
+        ├── ProjectandTraining.diverseJava
+        └── Communication.1
+    </div>
 </div>
 </body>
 </html>
